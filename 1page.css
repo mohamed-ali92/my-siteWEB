@@ -1,0 +1,150 @@
+/* General */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #f2f2f2;
+  color: #333;
+}
+
+html, body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+header {
+  background: url('BANNER3.jpg') no-repeat center center/cover;
+  height: 300px;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  position: relative;
+
+}
+/* Top Navigation */
+.topNav {
+  background-color: rgb(5, 8, 163);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icons a img {
+  width: 35px;
+  height: 35px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover img {
+  transform: scale(1.1);
+}
+
+.topNav .nv {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+.topNav .nv li {
+  background-color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.topNav .nv li a {
+  text-decoration: none;
+  color: rgb(21, 0, 206);
+  font-weight: bold;
+}
+
+/* Main Navigation */
+nav:not(.topNav) {
+  background-color: rgb(5, 8, 163);
+  display: flex;
+  justify-content: center;
+}
+
+.liens {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px 0;
+  margin: 0;
+}
+
+.liens li {
+  background-color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.liens a {
+  text-decoration: none;
+  color: rgb(12, 0, 175);
+  font-weight: bold;
+}
+
+/* Footer */
+footer.copyright {
+  background-color: rgb(5, 8, 163);
+  color: #fff;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 15px;
+  border-top: 3px solid #616161;
+  box-shadow: 0 -2px 10px rgb(97, 100, 98);
+  margin-top: auto;
+  font-style: inherit;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ .social-icons .instagram img{
+
+width: 40px ;
+height: 40px ;
+
+}
+
+.dropdown {
+  position: relative;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  border: 2px solid #1200b8;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  padding: 10px;
+  z-index: 1000;
+}
+.submenu li {
+  margin: 5px 0;
+  list-style: none;
+}
+
+.submenu li a {
+  text-decoration: none;
+  color: #1002ca;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.dropdown:hover .submenu {
+  display: block;
+}
+
+

@@ -1,0 +1,77 @@
+body {
+  font-family: "Tahoma", Arial, sans-serif;
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 0;
+  line-height: 1.8;
+  direction: rtl;
+  text-align: center;
+}
+
+/* الرأس */
+header {
+  background: linear-gradient(135deg, #004080, #0073e6);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+header p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+/* المحتوى */
+main {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+/* تقارير */
+.report {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.report:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.report h2 {
+  font-size: 24px;
+  color: #004080;
+  margin-bottom: 15px;
+}
+.report img {
+  width: 100%;
+  border-radius: 8px;
+  margin: 15px 0;
+}
+
+.report p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 12px;
+  text-align: justify;
+}
+
+/* التذييل */
+footer {
+  background: #004080;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  font-size: 14px;
+}
